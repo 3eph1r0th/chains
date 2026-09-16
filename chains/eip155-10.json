@@ -1,7 +1,16 @@
 {
-  "name": "Optimism",
+  "name": "OP Mainnet",
   "chain": "ETH",
-  "rpc": ["https://mainnet.optimism.io/"],
+  "rpc": [
+    "https://mainnet.optimism.io",
+    "https://optimism-rpc.publicnode.com",
+    "wss://optimism-rpc.publicnode.com",
+    "https://optimism.gateway.tenderly.co",
+    "wss://optimism.gateway.tenderly.co",
+    "https://optimism.drpc.org",
+    "wss://optimism.drpc.org",
+    "https://xrpc.cl/optimism"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -12,11 +21,16 @@
   "shortName": "oeth",
   "chainId": 10,
   "networkId": 10,
-
   "explorers": [
     {
       "name": "etherscan",
       "url": "https://optimistic.etherscan.io",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "blockscout",
+      "url": "https://optimism.blockscout.com",
+      "icon": "blockscout",
       "standard": "EIP3091"
     }
   ]

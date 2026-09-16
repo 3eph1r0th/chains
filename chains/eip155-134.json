@@ -1,0 +1,18 @@
+{
+  "name": "iExec Sidechain",
+  "chain": "Bellecour",
+  "icon": "rlc",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "xRLC",
+    "symbol": "xRLC",
+    "decimals": 18
+  },
+  "infoURL": "https://iex.ec",
+  "shortName": "rlc",
+  "chainId": 134,
+  "networkId": 134,
+  "status": "deprecated",
+  "explorers": []
+}

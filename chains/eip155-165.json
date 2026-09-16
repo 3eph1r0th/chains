@@ -1,0 +1,25 @@
+{
+  "name": "Farm Chain",
+  "chain": "FMC",
+  "icon": "fmc",
+  "rpc": ["https://rpc.fmcscan.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Farm Coin",
+    "symbol": "FMC",
+    "decimals": 18
+  },
+  "infoURL": "https://fmcscan.com",
+  "shortName": "fmc",
+  "chainId": 165,
+  "networkId": 165,
+  "redFlags": ["reusedChainId"],
+  "slip44": 60,
+  "explorers": [
+    {
+      "name": "Farm Chain Explorer",
+      "url": "https://fmcscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

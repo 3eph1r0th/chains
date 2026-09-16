@@ -1,0 +1,24 @@
+{
+  "name": "VinuChain",
+  "chain": "VC",
+  "rpc": ["https://rpc.vinuchain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VinuChain",
+    "symbol": "VC",
+    "decimals": 18
+  },
+  "infoURL": "https://vinuchain.org",
+  "shortName": "vc",
+  "chainId": 207,
+  "networkId": 207,
+  "icon": "vinuchain",
+  "explorers": [
+    {
+      "name": "VinuExplorer",
+      "url": "https://vinuexplorer.org",
+      "icon": "vinuchain",
+      "standard": "EIP3091"
+    }
+  ]
+}

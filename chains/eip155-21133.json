@@ -1,0 +1,23 @@
+{
+  "name": "All About Health",
+  "chain": "AAH",
+  "rpc": ["https://rpc.aah.name"],
+  "faucets": ["https://aah.name"],
+  "nativeCurrency": {
+    "name": "AAH",
+    "symbol": "AAH",
+    "decimals": 18
+  },
+  "infoURL": "https://aah.name",
+  "shortName": "aah",
+  "chainId": 21133,
+  "networkId": 21133,
+  "explorers": [
+    {
+      "name": "AAH Blockscout",
+      "url": "https://exp.aah.name",
+      "icon": "aah",
+      "standard": "EIP3091"
+    }
+  ]
+}

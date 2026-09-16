@@ -1,16 +1,23 @@
 {
-  "name": "SeedCoin-Network",
-  "chain": "SeedCoin-Network",
-  "rpc": ["https://node.seedcoin.network"],
+  "name": "CONX Chain",
+  "chain": "CONX",
+  "rpc": ["https://dimension-evm-rpc.xpla.dev"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "SeedCoin",
-    "symbol": "SEED",
+    "name": "XPLA",
+    "symbol": "XPLA",
     "decimals": 18
   },
-  "infoURL": "https://www.seedcoin.network/",
-  "shortName": "SEED",
-  "icon": "seedcoin",
+  "infoURL": "https://conx.xyz",
+  "shortName": "conx",
   "chainId": 37,
-  "networkId": 37
+  "networkId": 37,
+  "icon": "conx",
+  "explorers": [
+    {
+      "name": "CONX Explorer",
+      "url": "https://explorer.conx.xyz/mainnet",
+      "standard": "EIP3091"
+    }
+  ]
 }

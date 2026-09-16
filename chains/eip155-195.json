@@ -1,0 +1,25 @@
+{
+  "name": "X Layer Testnet(Deprecated)",
+  "chain": "X Layer",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "X Layer Global Utility Token in testnet(Deprecated)",
+    "symbol": "OKBDep",
+    "decimals": 18
+  },
+  "features": [],
+  "infoURL": "",
+  "shortName": "tokb-dep",
+  "chainId": 195,
+  "networkId": 195,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "OKLink",
+      "url": "https://www.oklink.com/zh-hans/x-layer-testnet",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "deprecated"
+}
